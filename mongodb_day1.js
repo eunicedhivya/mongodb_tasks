@@ -1,10 +1,10 @@
 // Use Mongo Shell to test all commands
 
 // Show all databases
-`show dbs`;
+show dbs;
 
 // Choose products as current db
-`use products`;
+use products;
 
 // Insert Multiple Products in to Collection products
 db.products.insertMany([
